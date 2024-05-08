@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Gorengan</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body style="width: 100%; height: 100vh;">
+  <nav class="navbar bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4 text-white" href="#">
+        <img src="logo-navbar.jpg" alt="Logo" width="48" height="48" class="d-inline-block rounded-5 me-2">
+        Gorengan
+      </a>
+    </div>
+  </nav>
+  <h1 class="text-center fw-bold mt-5 mb-3">Kalkulator</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-xl-6 col-md-6 col-8 mx-auto">
+        <form onsubmit="kalkulator(); return false;" class="form-control p-4">
+          <div class="d-flex justify-content-center text-center">
+            <div class="me-1">
+              <label for="pisgor" class="fw-bold my-2">Pisang Goreng</label>
+              <input type="number" id="pisgor" name="pisgor" class="form-control p-1" value="0">
+            </div>
+            <div class="">
+              <label for="donat" class="fw-bold my-2">Donat</label>
+              <input type="number" id="donat" name="donat" class="form-control p-1" value="0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-center text-center">
+            <div class="me-1">
+              <label for="piscok" class="fw-bold my-2">Pisang Coklat</label>
+              <input type="number" id="piscok" name="piscok" class="form-control p-1" value="0">
+            </div>
+            <div class="">
+              <label for="lumpia" class="fw-bold my-2">Lumpia</label>
+              <input type="number" id="lumpia" name="lumpia" class="form-control p-1" value="0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-center text-center">
+            <div class="me-1">
+              <label for="ote2" class="fw-bold my-2">Ote-ote</label>
+              <input type="number" id="ote2" name="ote2" class="form-control p-1" value="0">
+            </div>
+            <div class="">
+              <label for="taisi" class="fw-bold my-2">Tahu Isi</label>
+              <input type="number" id="taisi" name="taisi" class="form-control p-1" value="0">
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary form-control mt-2 mb-1" type="submit">Enter</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="navbar bg-dark mt-5" style="height: 90px;">
+    <div class="container justify-content-center">
+      <div class="row">
+        <div class="col-12">
+          <p class="fw-bold fs-6 my-auto text-white">&copy; 2024 Copyright <a href="#" class="text-decoration-none">Gorengan</a> by <a href="https://www.instagram.com/nurwahyu.a.m/" class="text-decoration-none text-warning">@nurwahyu.a.m</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
